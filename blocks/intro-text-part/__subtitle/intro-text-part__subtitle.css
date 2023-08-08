@@ -1,0 +1,14 @@
+.intro-text-part__subtitle {
+  margin: 0;
+  max-width: 767px;
+  color: var(--grey-color, #464646);
+  text-align: center;
+  font-family: "Nunito", Arial, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; 
+  letter-spacing: 0.2px;
+  padding-top: 24px;
+  padding-bottom: 32px;
+}

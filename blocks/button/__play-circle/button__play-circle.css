@@ -1,0 +1,9 @@
+.button__play-circle {
+    background-image: url(.././../../image/play-circle.svg);
+    height: 24px;
+    width: 24px;
+    display: inline-block;
+    background-position: center;
+    margin: 0;
+    
+}

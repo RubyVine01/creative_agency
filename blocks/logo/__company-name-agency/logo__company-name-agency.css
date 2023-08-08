@@ -1,0 +1,9 @@
+.logo__company-name-agency {
+  margin: 0;
+  color: var(--black-color, #1d1d1d);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}

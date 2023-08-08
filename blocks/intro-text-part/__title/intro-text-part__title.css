@@ -1,0 +1,12 @@
+.intro-text-part__title {
+  margin: 0;
+  max-width: 749px;
+  color: #1d1d1d;
+  text-align: center;
+  font-family: "Nunito", Arial, sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 0.64px;
+}

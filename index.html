@@ -8,47 +8,41 @@
       name="description"
       content="Developing a creative strategy to achieve your business goal"
     />
-    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="stylesheet" href="./page/index.css" />
     <title>Make your dream business goal come true</title>
   </head>
   <body>
     <body class="root">
       <div class="page">
         <header class="header">
-          <div class="header__logo">
-            <img src="./image/logo.svg" alt="logo" class="header__logo-image" />
-            <div class="header__company-name">
-              <p>Agency</p>
-              <p>Creative</p>
+          <div class="logo">
+            <img src="./image/logo.svg" alt="logo" class="logo__image" />
+            <div class="logo__company-name">
+              <p class="logo__company-name-agency">Agency</p>
+              <p class="logo__company-name-creative">Creative</p>
             </div>
           </div>
           <nav>
             <ul class="header__navigation-list">
               <li>
-                <a href="#" class="header__navigation-item" target="_blank"
+                <a
+                  href="#"
+                  class="header__navigation-item header__navigation-item_choose"
                   >Home</a
                 >
               </li>
               <li>
-                <a href="#" class="header__navigation-item" target="_blank"
-                  >About</a
-                >
+                <a href="#" class="header__navigation-item">About</a>
               </li>
               <li>
-                <a href="#" class="header__navigation-item" target="_blank"
-                  >Sevices</a
-                >
+                <a href="#" class="header__navigation-item">Sevices</a>
               </li>
               <li>
-                <a href="#" class="header__navigation-item" target="_blank"
-                  >Projects</a
-                >
+                <a href="#" class="header__navigation-item">Projects</a>
               </li>
             </ul>
           </nav>
-          <button class="button button_white header__button-contact-us">
-            Contact us
-          </button>
+          <button class="button button_white">Contact us</button>
         </header>
         <main class="content">
           <section class="intro">
@@ -56,7 +50,7 @@
             <div class="intro__decorate-item-circle-blue-right"></div>
             <div class="intro__decorate-item-circle-red-right"></div>
             <div class="intro__decorate-item-points-green-right"></div>
-            <div class="itntro-text-part">
+            <div class="intro-text-part">
               <h1 class="intro-text-part__title">
                 Make your dream business goal come true
               </h1>
@@ -65,11 +59,7 @@
                 help your business have reach it, you just sit and feel that
                 goal
               </p>
-              <button
-                class="button button_blue intro-text-part__button-start-progect"
-              >
-                Start Project
-              </button>
+              <button class="button button_blue">Start Project</button>
             </div>
             <div class="intro-photo-team">
               <div class="intro-photo-team__decorate-item-points-green"></div>
@@ -79,31 +69,30 @@
                 class="intro-photo-team__decorate-item-circle-red-left"
               ></div>
               <img
-                src="./image/itntro-photo-team__image.png"
+                src="./image/intro-photo-team__image.png"
                 alt="photo team"
-                class="itntro-photo-team__image"
+                class="intro-photo-team__image"
               />
-              <div class="great-progect">
-                <div class="great-progect__title">
-                  <div class="great-progect__star"></div>
-                  <h2 class="great-progect__title-text">Great Project</h2>
-                </div>
-                <p class="great-progect__count-done">
-                  <span class="great-progect__count"></span>
-                  <span class="great-progect__done"></span>
-                </p>
+              <div class="intro-great-progect">
+                <p class="intro-great-progect__title">⭐ Great Project</p>
+                <h2 class="intro-great-progect__count-done">
+                  800+
+                  <span class="intro-great-progect__count-done_done">Done</span>
+                </h2>
               </div>
-              <div class="ceo-quote">
-                <div class="ceo-quote__info">
+              <div class="intro-ceo-quote">
+                <div class="intro-ceo-quote__info">
                   <img
                     src="./image/ceo-quote__photo.png"
-                    alt="ceo-quote__photo"
-                    class="ceo-photo"
+                    alt="intro-ceo-quote__photo"
+                    class="intro-ceo-photo"
                   />
-                  <p class="ceo-quote__name">Bill Adams</p>
-                  <p class="ceo-quote__position">CEO UpTech</p>
+                  <div class="intro-ceo-quote__text">
+                    <h3 class="intro-ceo-quote__name">Bill Adams</h3>
+                    <p class="intro-ceo-quote__position">CEO UpTech</p>
+                  </div>
                 </div>
-                <blockquote class="ceo-quote__quote">
+                <blockquote class="intro-ceo-quote__quote">
                   “ This team is really the best in its field,I don't regret
                   working with them, and will come back again thanks “
                 </blockquote>
@@ -128,12 +117,9 @@
                 your content look interesting and make people look for your
                 business
               </p>
-              <button class="button button_blue about-us__button-about-us">
-                About Us
-              </button>
-              <button class="button button_white about-us__button-our-story">
-                <div class="about-us__button-play-circle"></div>
-                <p class="about-us__button-text">Our Story</p>
+              <button class="button button_blue">About Us</button>
+              <button class="button button_white">
+                <span class="button__play-circle"></span>Our Story
               </button>
             </div>
             <img
@@ -199,11 +185,7 @@
                 <p class="our-portfolio__project-name">Design Furniture App</p>
               </li>
             </ul>
-            <button
-              class="button button_white our-portfolio__button-see-all-portfolio"
-            >
-              See All Portfolio
-            </button>
+            <button class="button button_white">See All Portfolio</button>
           </section>
           <section class="testimonial">
             <div class="testimonial__decorate-item-points-blue-left"></div>
@@ -263,9 +245,7 @@
             <div class="offer__decorate-item-points-orange-long"></div>
             <h2 class="offer__title">Interesting Collaboration With Us?</h2>
             <p class="offer__subtitle">Help you to reach your business goal</p>
-            <button class="button button_blue about-us__button-get-started">
-              Get Started
-            </button>
+            <button class="button button_blue">Get Started</button>
             <img
               src="./image/offer__photo-1.png"
               alt="good deal"
@@ -279,100 +259,134 @@
           </section>
         </main>
         <footer class="footer">
-          <div class="footer__logo">
-            <img src="./image/logo.svg" alt="logo" class="footer__logo-image" />
-            <div class="footer__company-name">
-              <p>Agency</p>
-              <p>Creative</p>
+          <div class="footer__upper-part">
+            <div class="footer__logo">
+              <div class="logo">
+                <img src="./image/logo.svg" alt="logo" class="logo__image" />
+                <div class="logo__company-name">
+                  <p class="logo__company-name-agency">Agency</p>
+                  <p class="logo__company-name-creative">Creative</p>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="footer__logo"></div>
-          <ul class="footer__terms-policies">
-            <h2 class="footer__title">Terms & policies</h2>
-            <li>
-              <a href="#" target="_blank" class="footer__terms-link"
-                >Terms of Service</a
-              >
-            </li>
-            <li>
-              <a href="#" target="_blank" class="footer__policies-link"
-                >Terms of Service</a
-              >
-            </li>
-          </ul>
-          <nav>
-            <h2 class="footer__title">Company</h2>
-            <ul class="footer__navigation">
+            <ul class="footer__list">
+              <h2 class="footer__list-title">Terms & policies</h2>
               <li>
-                <a href="#" footer__navigation-link>Home</a>
+                <a
+                  href="#"
+                  target="_blank"
+                  class="footer__list-item footer__list-item_link"
+                  >Terms of Service</a
+                >
               </li>
               <li>
-                <a href="#" footer__navigation-link>About Us</a>
-              </li>
-              <li>
-                <a href="#" footer__navigation-link>Contact Us</a>
+                <a
+                  href="#"
+                  target="_blank"
+                  class="footer__list-item footer__list-item_link"
+                  >Terms of Service</a
+                >
               </li>
             </ul>
-          </nav>
-          <ul class="footer__contact">
-            <h2 class="footer__title">Contact</h2>
-            <li>
-              <a href="#" class="footer__phone">(+62) 893912392190</a>
-            </li>
-            <li>
-              <a href="#" class="footer__email">agecnycr@gmail.com</a>
-            </li>
-          </ul>
-          <ul class="footer__location">
-            <h2 class="footer__title">Location</h2>
-            <li>
-              <p class="footer__address">PT Osiris Real Estate Internasional</p>
-            </li>
-            <li>
-              <p class="footer__address">Jl. KH. Wahid Hasyim Kel No.10D</p>
-            </li>
-            <li>
-              <p class="footer__address">Jakarta, Indonesia</p>
-            </li>
-            <li>
-              <a href="#" class="footer__email">team@OsirisRealEstate.com</a>
-            </li>
-          </ul>
+            <nav>
+              <ul class="footer__list">
+                <h2 class="footer__list-title">Company</h2>
+                <li>
+                  <a href="#" class="footer__list-item footer__list-item_link"
+                    >Home</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="footer__list-item footer__list-item_link"
+                    >About Us</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="footer__list-item footer__list-item_link"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+            </nav>
+            <ul class="footer__list">
+              <h2 class="footer__list-title">Contact</h2>
+              <li>
+                <a
+                  class="footer__list-item footer__list-item_link"
+                  href="tel:+62893912392190"
+                  >(+62) 893912392190</a
+                >
+              </li>
+              <li>
+                <a
+                  href="mailto:agecnycr@gmail.com"
+                  class="footer__list-item footer__list-item_link"
+                  >agecnycr@gmail.com</a
+                >
+              </li>
+            </ul>
+            <ul class="footer__list">
+              <h2 class="footer__list-title">Location</h2>
+              <li>
+                <p class="footer__list-item">
+                  PT Osiris Real Estate Internasional
+                </p>
+              </li>
+              <li>
+                <p class="footer__list-item">Jl. KH. Wahid Hasyim Kel No.10D</p>
+              </li>
+              <li>
+                <p class="footer__list-item">Jakarta, Indonesia</p>
+              </li>
+              <li>
+                <a
+                  href="team@OsirisRealEstate.com"
+                  class="footer__list-item footer__list-item_link"
+                  >team@OsirisRealEstate.com</a
+                >
+              </li>
+            </ul>
+          </div>
           <ul class="footer__social-media">
-            <li class="footer__social-media-item">
-              <img
-                src="./image/social-media-mail.svg"
-                alt="logo mail"
-                class="footer__logo-email"
-              />
+            <li>
+              <a href="#" target="_blank" class="footer__social-media-link"
+                ><img
+                  src="./image/social-media-twitter.svg"
+                  alt="logo mail"
+                  class="footer__social-media-image"
+              /></a>
             </li>
-            <li class="footer__social-media-item">
-              <img
-                src="./image/social-media-twitter.svg"
-                alt="logo twitter"
-                class="footer__logo-twitter"
-              />
+            <li>
+              <a href="#" target="_blank" class="footer__social-media-link"
+                ><img
+                  src="./image/social-media-mail.svg"
+                  alt="logo mail"
+                  class="footer__social-media-image"
+              /></a>
             </li>
-            <li class="footer__social-media-item">
-              <img
-                src="./image/social-media-mail.svg"
-                alt="logo mail"
-                class="footer__logo-email"
-              />
+            <li>
+              <a href="#" target="_blank" class="footer__social-media-link"
+                ><img
+                  src="./image/social-media-twitter.svg"
+                  alt="logo mail"
+                  class="footer__social-media-image"
+              /></a>
             </li>
-            <li class="footer__social-media-item">
-              <img
-                src="./image/social-media-twitter.svg"
-                alt="logo twitter"
-                class="footer__logo-twitter"
-              />
+            <li>
+              <a href="#" target="_blank" class="footer__social-media-link"
+                ><img
+                  src="./image/social-media-mail.svg"
+                  alt="logo mail"
+                  class="footer__social-media-image"
+              /></a>
             </li>
-            <li class="footer__social-media-item">
-              <img
-                src="./image/social-media-mail.svg"
-                alt="logo mail"
-                class="footer__logo-email"
-              />
+            <li>
+              <a href="#" target="_blank" class="footer__social-media-link"
+                ><img
+                  src="./image/social-media-twitter.svg"
+                  alt="logo mail"
+                  class="footer__social-media-image"
+              /></a>
             </li>
           </ul>
           <div class="footer__line"></div>

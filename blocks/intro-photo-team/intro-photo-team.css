@@ -1,0 +1,10 @@
+.intro-photo-team {
+  margin: 0 auto;
+  width: 985px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 59px;
+  padding-bottom: 55px;
+  position: relative;
+}

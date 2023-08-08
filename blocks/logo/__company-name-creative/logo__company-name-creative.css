@@ -1,0 +1,9 @@
+.logo__company-name-creative {
+  margin: 0;
+  color: var(--black-color, #1d1d1d);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.16px;
+}

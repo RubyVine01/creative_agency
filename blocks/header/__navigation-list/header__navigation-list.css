@@ -1,0 +1,9 @@
+.header__navigation-list {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 385px;
+}

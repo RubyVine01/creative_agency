@@ -1,0 +1,9 @@
+.footer__logo {
+  width: 187px;
+  height: 88px;
+  border-radius: 20px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

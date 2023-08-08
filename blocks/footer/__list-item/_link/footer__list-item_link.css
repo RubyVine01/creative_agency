@@ -1,0 +1,7 @@
+.footer__list-item_link {
+  text-decoration: none;
+}
+
+.footer__list-item_link:hover {
+  opacity: 0.3;
+}

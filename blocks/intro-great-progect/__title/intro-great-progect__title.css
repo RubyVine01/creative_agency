@@ -1,0 +1,13 @@
+.intro-great-progect__title {
+  margin: 0;
+  color: #1d1d1d;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.12px;
+  text-transform: uppercase;
+  opacity: 0.5;
+  padding-top: 20px;
+}

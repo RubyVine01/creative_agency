@@ -1,0 +1,5 @@
+.intro-ceo-quote__info {
+    margin: 0;
+    display: flex;
+    column-gap: 10px;
+}
