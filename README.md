@@ -1,7 +1,7 @@
 # Project: Creative agency
 
 ## GitHub Pages 
-https://rubyvine01.github.io/russian-travel-bootcamp/
+https://rubyvine01.github.io/creative_agency/
 
 ### Обзор
 * Intro
