@@ -1,14 +1,14 @@
 .intro-great-progect {
-margin: 0;
-position: absolute;  
-left: 17px;  
-top: 83px;
-border-radius: 16px;
-width: 175px;
-box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.15);
-background-color: #FFF;
-display: flex;
-flex-direction: column;
-row-gap: 11px;
-
+  margin: 0;
+  position: absolute;
+  left: 17px;
+  top: 83px;
+  border-radius: 16px;
+  width: 175px;
+  box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.15);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  row-gap: 11px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }

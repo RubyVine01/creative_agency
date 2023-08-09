@@ -1,3 +1,4 @@
+@import url(../vendor/fonts/fonts.css);
 @import url(../blocks/root/root.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
@@ -14,10 +15,21 @@
 @import url(../blocks/button/_blue/button_blue.css);
 @import url(../blocks/button/__play-circle/button__play-circle.css);
 @import url(../blocks/intro/intro.css);
+@import url(../blocks/decorate-item-circle/decorate-item-circle.css);
+@import url(../blocks/intro/__decorate-item-circle-blue-left/intro__decorate-item-circle-blue-left.css);
+@import url(../blocks/intro/__decorate-item-circle-blue-right/intro__decorate-item-circle-blue-right.css);
+@import url(../blocks/intro/__decorate-item-circle-red-right/intro__decorate-item-circle-red-right.css);
+@import url(../blocks/decorate-item-points/decorate-item-points.css);
+@import url(../blocks/intro/__decorate-item-points-green-right/intro__decorate-item-points-green-right.css);
 @import url(../blocks/intro-text-part/intro-text-part.css);
 @import url(../blocks/intro-text-part/__title/intro-text-part__title.css);
 @import url(../blocks/intro-text-part/__subtitle/intro-text-part__subtitle.css);
 @import url(../blocks/intro-photo-team/intro-photo-team.css);
+@import url(../blocks/intro-photo-team/__decorate-item-circle-red-right/intro-photo-team__decorate-item-circle-red-right.css);
+@import url(../blocks/intro-photo-team/__decorate-item-points-red/intro-photo-team__decorate-item-points-red.css);
+@import url(../blocks/intro-photo-team/__decorate-item-points-blue/intro-photo-team__decorate-item-points-blue.css);
+
+
 @import url(../blocks/intro-great-progect/intro-great-progect.css);
 @import url(../blocks/intro-great-progect/__title/intro-great-progect__title.css);
 @import url(../blocks/intro-great-progect/__star/intro-great-progect__star.css);
@@ -25,6 +37,11 @@
 @import url(../blocks/intro-great-progect/__count-done/_done/intro-great-progect__count-done_done.css);
 @import url(../blocks/intro-ceo-quote/intro-ceo-quote.css);
 @import url(../blocks/intro-ceo-quote/__info/intro-ceo-quote__info.css);
+@import url(../blocks/intro-ceo-quote/__photo/intro-ceo-quote__photo.css);
+@import url(../blocks/intro-ceo-quote/__text/intro-ceo-quote__text.css);
+@import url(../blocks/intro-ceo-quote/__name/intro-ceo-quote__name.css);
+@import url(../blocks/intro-ceo-quote/__position/intro-ceo-quote__position.css);
+@import url(../blocks/intro-ceo-quote/__quote/intro-ceo-quote__quote.css);
 
 
 

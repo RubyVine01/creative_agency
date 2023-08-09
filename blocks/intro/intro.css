@@ -1,7 +1,8 @@
 .intro {
-    margin: 0;
-    padding-top: 68px;
-    display: flex;
-    flex-direction: column;
-    row-gap: 40px;
+  margin: 0;
+  padding-top: 68px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  position: relative;
 }
