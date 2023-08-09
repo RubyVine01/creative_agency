@@ -30,7 +30,6 @@
 @import url(../blocks/intro-photo-team/__decorate-item-points-blue/intro-photo-team__decorate-item-points-blue.css);
 @import url(../blocks/intro-great-progect/intro-great-progect.css);
 @import url(../blocks/intro-great-progect/__title/intro-great-progect__title.css);
-
 @import url(../blocks/intro-great-progect/__count-done/intro-great-progect__count-done.css);
 @import url(../blocks/intro-great-progect/__count-done/_done/intro-great-progect__count-done_done.css);
 @import url(../blocks/intro-ceo-quote/intro-ceo-quote.css);
@@ -49,6 +48,26 @@
 @import url(../blocks/about-us/__button-plase/about-us__button-plase.css);
 @import url(../blocks/about-us/__decorate-item-points-pink/about-us__decorate-item-points-pink.css);
 @import url(../blocks/about-us/__decorate-item-points-orange/about-us__decorate-item-points-orange.css);
+@import url(../blocks/our-services/our-services.css);
+@import url(../blocks/our-services/__text-part/our-services__text-part.css);
+@import url(../blocks/our-services/__title/our-services__title.css);
+@import url(../blocks/our-services/__subtitle/our-services__subtitle.css);
+@import url(../blocks/our-services/__text/our-services__text.css);
+@import url(../blocks/our-services/__link/our-services__link.css);
+@import url(../blocks/direction-part/direction-part.css);
+@import url(../blocks/direction-part/__item/direction-part__item.css);
+@import url(../blocks/direction-part/__img/direction-part__img.css);
+@import url(../blocks/direction-part/__img/_blue/direction-part__img_blue.css);
+@import url(../blocks/direction-part/__img/_green/direction-part__img_green.css);
+@import url(../blocks/direction-part/__img/_red/direction-part__img_red.css);
+@import url(../blocks/direction-part/__img/_yellow/direction-part__img_yellow.css);
+
+@import url(../blocks/direction-part/__discription/direction-part__discription.css);
+
+
+
+
+
 
 
 

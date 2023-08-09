@@ -1,0 +1,11 @@
+.direction-part {
+    margin: 0;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 41px;
+    row-gap: 38px;
+    list-style: none;
+    max-width: 565px;
+
+}

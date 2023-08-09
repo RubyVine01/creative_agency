@@ -1,0 +1,9 @@
+.direction-part__img {
+  margin: 0;
+  border-radius: 50px;
+  height: 100px;
+  width: 100px;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+}
