@@ -14,6 +14,7 @@
 @import url(../blocks/button/_white/button_white.css);
 @import url(../blocks/button/_blue/button_blue.css);
 @import url(../blocks/button/__play-circle/button__play-circle.css);
+@import url(../blocks/content/content.css);
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/decorate-item-circle/decorate-item-circle.css);
 @import url(../blocks/intro/__decorate-item-circle-blue-left/intro__decorate-item-circle-blue-left.css);
@@ -74,16 +75,26 @@
 @import url(../blocks/our-portfolio/__project-name/our-portfolio__project-name.css);
 @import url(../blocks/our-portfolio/__decorate-item-points-pink-right/our-portfolio__decorate-item-points-pink-right.css);
 @import url(../blocks/our-portfolio/__decorate-item-points-pink-left/our-portfolio__decorate-item-points-pink-left.css);
-
-
-
-
-
-
-
-
-
-
+@import url(../blocks/testimonial/testimonial.css);
+@import url(../blocks/testimonial/__title/testimonial__title.css);
+@import url(../blocks/testimonial/__subtitle/testimonial__subtitle.css);
+@import url(../blocks/testimonial/__list/testimonial__list.css);
+@import url(../blocks/testimonial/__item/testimonial__item.css);
+@import url(../blocks/testimonial/__authot-info/testimonial__authot-info.css);
+@import url(../blocks/testimonial/__photo/testimonial__photo.css);
+@import url(../blocks/testimonial/__authot-name-position/testimonial__authot-name-position.css);
+@import url(../blocks/testimonial/__authot-name/testimonial__authot-name.css);
+@import url(../blocks/testimonial/__authot-position/testimonial__authot-position.css);
+@import url(../blocks/testimonial/__quote/testimonial__quote.css);
+@import url(../blocks/testimonial/__decorate-item-points-blue-left/intro-photo-team__decorate-item-points-blue-left.css);
+@import url(../blocks/testimonial/__decorate-item-points-blue-right/intro-photo-team__decorate-item-points-blue-right.css);
+@import url(../blocks/offer/offer.css);
+@import url(../blocks/offer/__title/offer__title.css);
+@import url(../blocks/offer/__subtitle/offer__subtitle.css);
+@import url(../blocks/offer/__photo-left/offer__photo-left.css);
+@import url(../blocks/offer/__photo-right/offer__photo-right.css);
+@import url(../blocks/offer/__decorate-item-big-points-blue-right/offer__decorate-item-big-points-blue-right.css);
+@import url(../blocks/offer/__decorate-item-points-orange-long/offer__decorate-item-points-orange-long.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__upper-part/footer__upper-part.css);
 @import url(../blocks/footer/__logo/footer__logo.css);

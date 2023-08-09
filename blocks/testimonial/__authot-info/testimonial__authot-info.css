@@ -1,0 +1,9 @@
+.testimonial__authot-info {
+  margin: 0;
+  display: flex;
+  column-gap: 10px;
+  justify-content: start;
+  align-items: center;
+  padding-top: 49px;
+  padding-left: 40px;
+}

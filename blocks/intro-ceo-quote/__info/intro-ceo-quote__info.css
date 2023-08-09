@@ -1,9 +1,9 @@
 .intro-ceo-quote__info {
-    margin: 0;
-    display: flex;
-    column-gap: 10px;
-    justify-content: start;
-    align-items: center ;
-    padding-top: 27px;
-    padding-left: 20px;
+  margin: 0;
+  display: flex;
+  column-gap: 10px;
+  justify-content: start;
+  align-items: center;
+  padding-top: 27px;
+  padding-left: 20px;
 }

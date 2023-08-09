@@ -1,8 +1,8 @@
 .our-portfolio {
-    margin: 0;
-    display: flex;
-    padding-top: 130px;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
+  margin: 0;
+  display: flex;
+  padding-top: 130px;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
 }

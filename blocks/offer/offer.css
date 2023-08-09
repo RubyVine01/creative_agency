@@ -1,0 +1,8 @@
+.offer {
+  display: flex;
+  margin: 0;
+  flex-direction: column;
+  padding: 284px 0 187px 100px;
+  position: relative;
+  align-items: start;
+}

@@ -1,0 +1,8 @@
+.testimonial {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 196px;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}

@@ -1,6 +1,6 @@
 .about-us__button-plase {
-    display: flex;
-    column-gap: 25px;
-    justify-content: start;
-    margin: 0;
+  display: flex;
+  column-gap: 25px;
+  justify-content: start;
+  margin: 0;
 }
