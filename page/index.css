@@ -61,9 +61,19 @@
 @import url(../blocks/direction-part/__img/_green/direction-part__img_green.css);
 @import url(../blocks/direction-part/__img/_red/direction-part__img_red.css);
 @import url(../blocks/direction-part/__img/_yellow/direction-part__img_yellow.css);
-
 @import url(../blocks/direction-part/__discription/direction-part__discription.css);
-
+@import url(../blocks/our-portfolio/our-portfolio.css);
+@import url(../blocks/our-portfolio/__title/our-portfolio__title.css);
+@import url(../blocks/our-portfolio/__subtitle/our-portfolio__subtitle.css);
+@import url(../blocks/our-portfolio/__text/our-portfolio__text.css);
+@import url(../blocks/our-portfolio/__project-list/our-portfolio__project-list.css);
+@import url(../blocks/our-portfolio/__project-image/our-portfolio__project-image.css);
+@import url(../blocks/our-portfolio/__project-image/_left/our-portfolio__project-image_left.css);
+@import url(../blocks/our-portfolio/__project-image/_center/our-portfolio__project-image_center.css);
+@import url(../blocks/our-portfolio/__project-image/_right/our-portfolio__project-image_right.css);
+@import url(../blocks/our-portfolio/__project-name/our-portfolio__project-name.css);
+@import url(../blocks/our-portfolio/__decorate-item-points-pink-right/our-portfolio__decorate-item-points-pink-right.css);
+@import url(../blocks/our-portfolio/__decorate-item-points-pink-left/our-portfolio__decorate-item-points-pink-left.css);
 
 
 

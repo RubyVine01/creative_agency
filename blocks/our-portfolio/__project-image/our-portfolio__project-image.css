@@ -1,0 +1,7 @@
+.our-portfolio__project-image {
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: end;
+  justify-content: start;
+}
