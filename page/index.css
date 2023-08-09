@@ -28,11 +28,9 @@
 @import url(../blocks/intro-photo-team/__decorate-item-circle-red-right/intro-photo-team__decorate-item-circle-red-right.css);
 @import url(../blocks/intro-photo-team/__decorate-item-points-red/intro-photo-team__decorate-item-points-red.css);
 @import url(../blocks/intro-photo-team/__decorate-item-points-blue/intro-photo-team__decorate-item-points-blue.css);
-
-
 @import url(../blocks/intro-great-progect/intro-great-progect.css);
 @import url(../blocks/intro-great-progect/__title/intro-great-progect__title.css);
-@import url(../blocks/intro-great-progect/__star/intro-great-progect__star.css);
+
 @import url(../blocks/intro-great-progect/__count-done/intro-great-progect__count-done.css);
 @import url(../blocks/intro-great-progect/__count-done/_done/intro-great-progect__count-done_done.css);
 @import url(../blocks/intro-ceo-quote/intro-ceo-quote.css);
@@ -42,6 +40,18 @@
 @import url(../blocks/intro-ceo-quote/__name/intro-ceo-quote__name.css);
 @import url(../blocks/intro-ceo-quote/__position/intro-ceo-quote__position.css);
 @import url(../blocks/intro-ceo-quote/__quote/intro-ceo-quote__quote.css);
+@import url(../blocks/about-us/about-us.css);
+@import url(../blocks/about-us/__title/about-us__title.css);
+@import url(../blocks/about-us/__subtitle/about-us__subtitle.css);
+@import url(../blocks/about-us/__content/about-us__content.css);
+@import url(../blocks/about-us/__text-part/about-us__text-part.css);
+@import url(../blocks/about-us/__text/about-us__text.css);
+@import url(../blocks/about-us/__button-plase/about-us__button-plase.css);
+@import url(../blocks/about-us/__decorate-item-points-pink/about-us__decorate-item-points-pink.css);
+@import url(../blocks/about-us/__decorate-item-points-orange/about-us__decorate-item-points-orange.css);
+
+
+
 
 
 

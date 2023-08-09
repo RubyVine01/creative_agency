@@ -1,0 +1,7 @@
+.about-us__text-part {
+   display: flex;
+   flex-direction: column;
+   row-gap: 24px; 
+   justify-content: center;
+   max-width: 610px;
+}

@@ -1,0 +1,9 @@
+.about-us {
+    margin: 0 auto;
+    padding-top: 181px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
